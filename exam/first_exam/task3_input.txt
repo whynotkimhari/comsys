@@ -1,0 +1,4 @@
+hello,100,sir
+my name is,200,kim hari
+nice to,40,meet you!
+Have a ,4,great day~

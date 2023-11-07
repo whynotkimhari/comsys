@@ -1,4 +1,4 @@
-a<h1>Self - Note: <span style="color: red">LINUX AND STUFF</span></h1>
+<h1>Self - Note: <span style="color: red">LINUX AND STUFF</span></h1>
 
 > This is just what I think I will need to use it in the class and in the exam, not all the things about Linux...
 <hr>
