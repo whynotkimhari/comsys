@@ -1,0 +1,4 @@
+studentname,mark
+Kim,100
+Jack,0
+Zinn,50
