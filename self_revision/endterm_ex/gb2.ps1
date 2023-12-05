@@ -20,11 +20,11 @@ $romanValues = @{
 $decimalValue = $romanValues[[string]$romanNum[$romanNum.Length - 1]]
 
 for($i = 0; $i -lt $romanNum.Length - 1; $i++) {
-                                                                                                            $curr = $romanValues[[string]$romanNum[$i]]
-                                                                                                            $next = $romanValues[[string]$romanNum[$i + 1]]
+    $curr = $romanValues[[string]$romanNum[$i]]
+    $next = $romanValues[[string]$romanNum[$i + 1]]
 
-                                                                                                            if($curr -lt $next) { $decimalValue -= $curr }
-                                                                                                            else { $decimalValue += $curr }
-                                                                                                        }
+    if($curr -lt $next) { $decimalValue -= $curr }
+    else { $decimalValue += $curr }
+}
 
 Write-Host $decimalValue
